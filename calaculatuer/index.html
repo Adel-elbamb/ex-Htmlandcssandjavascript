@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>calc</title>
+</head>
+<body>
+    <div id="box">
+        <form name="Calculator">
+          <input id="result" name="display" placeholder="0">
+          <br>
+          <input id="number" type="button" value="7" onclick="document.Calculator.display.value += '7'">
+          <input id="number" type="button" value="8" onclick="document.Calculator.display.value += '8'">
+          <input id="number" type="button" value="9" onclick="document.Calculator.display.value += '9'">
+          <input id="math" type="button" value="+" onclick="btnplus()">
+          <br>
+          <input id="number" type="button" value="4" onclick="document.Calculator.display.value += '4'">
+          <input id="number" type="button" value="5" onclick="document.Calculator.display.value += '5'">
+          <input id="number" type="button" value="6" onclick="document.Calculator.display.value += '6'">
+          <input id="math" type="button" value="-" onclick="btnsub()">
+          <br>
+          <input id="number" type="button" value="1" onclick="document.Calculator.display.value += '1'">
+          <input id="number" type="button" value="2" onclick="document.Calculator.display.value += '2'">
+          <input id="number" type="button" value="3" onclick="document.Calculator.display.value += '3'">
+          <input id="math" type="button" value="*" onclick="btnmult()">
+          <br>
+          <input id="number" type="button" value="0" onclick="document.Calculator.display.value += '0'">
+          <input id="math" type="button" value="%" onclick="btnMod()">
+          <input id="math" type=button value="." onclick="btndot()">
+          <input id="math" type="button" value="/" onclick="btndiv()">
+          <br>
+          <input class="eval" type="button" value="=" onclick="btneval()">
+          <input class="clear" type="button" value="C" onclick="btnclear()">
+          
+          
+        </form>
+        </div>
+        <script src="main.js"></script>
+      
+</body>
+</html>

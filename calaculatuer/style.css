@@ -1,0 +1,45 @@
+body {
+    background-color: #bd931b;
+}
+#result {
+    margin-top: 25px;
+    width: 178px;
+    height: 30px;
+    color: #000;
+    border: 1px solid #000;
+    background-color: #FFF;
+    border-radius: 5px;
+    margin-bottom: 2px;
+    text-align: center;
+    
+}
+input {
+    width: 40px;
+    height: 30px;
+    margin: 1px;
+    border-radius: 5px;
+    border: none;
+}
+.eval, .clear {
+    width: 86px;
+    background-color: #a5ad61;
+}
+#box {
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 50px;
+    border: 1px solid #000;
+    width: 230px;
+    height: 230px;
+    border-radius: 15px;
+    background-color: #1e3a2f;
+    box-shadow: 0px 0px 20px 8px;
+}
+#number {
+    background-color: #312d2d;
+    color: #b93e3e;
+}
+#math {
+    background-color: #b3832a;
+    color: #000;
+}
